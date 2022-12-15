@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="exercise-04.css">
+<head>
+	<title>JavaScript Exercise-04.</title>
+	<script>
+		function myFunction(){
+		var x= document.getElementById("myText").placeholder;
+		document.getElementById("demo").innerHTML = x;
+		
+	</script>
+</head>
+<body>
+<h1 style="text-align:left;"><b>Form Here</b></h1>
+<span 
+					style="color:red"
+					id="error">
+					* required fields
+					</span>
+<hr/ style"color:#000000">
+<form id="form">
+<div class"container">
+<label for="firstname">Name:</label>
+<input type="text" name="fname" id="f-name" placeholder="placeholder text"/><br/><br/>
+<label for="email">Email:</label>
+<input type="text" name="email" id="f-email" placeholder="placeholder text" /><br/><br/>
+	<label for="website">Website:</label>
+	<input type="text" name="website" id="website-url" placeholder="placeholder text"/><br/><br/>
+	
+	<label for=""message-box">Message:</label>
+	<br/>
+	<br/>
+	<textarea id="form" name="formtarget" rows="5" cols="50"></textarea>
+	<br/>
+	<br/>
+	
+	<button id="submit">Submit</button>
+	<span role="alert" id="nameError" aria-hidden="true">Please enter First Name</span>
+</form>
+</div>
+</body>
+</html>

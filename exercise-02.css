@@ -1,0 +1,12 @@
+body{
+	background-clor: #CC5500;
+	background-attachment: fixed;
+	border-radius: 5px;
+	}
+	#Consonant{
+	background-clor:#D3D3D3;
+	width:10%;
+	font-size: 25px;
+	top: 15px;
+	display:none;
+	}
